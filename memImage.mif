@@ -1,0 +1,88 @@
+-- Copyright (C) 2017  Intel Corporation. All rights reserved.
+-- Your use of Intel Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Intel Program License 
+-- Subscription Agreement, the Intel Quartus Prime License Agreement,
+-- the Intel MegaCore Function License Agreement, or other 
+-- applicable license agreement, including, without limitation, 
+-- that your use is for the sole purpose of programming logic 
+-- devices manufactured by Intel and sold by Intel or its 
+-- authorized distributors.  Please refer to the applicable 
+-- agreement for further details.
+
+-- Quartus Prime generated Memory Initialization File (.mif)
+
+WIDTH=2;
+DEPTH=512;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=UNS;
+
+CONTENT BEGIN
+	[0..32]  :   0;
+	[33..35]  :   1;
+	[36..37]  :   0;
+	[38..39]  :   2;
+	40   :   0;
+	41   :   3;
+	42   :   0;
+	[43..45]  :   1;
+	[46..47]  :   0;
+	48   :   2;
+	[49..64]  :   0;
+	65   :   1;
+	[66..68]  :   0;
+	69   :   2;
+	[70..72]  :   0;
+	73   :   3;
+	74   :   0;
+	75   :   1;
+	[76..78]  :   0;
+	79   :   2;
+	80   :   0;
+	81   :   2;
+	[82..96]  :   0;
+	[97..98]  :   1;
+	[99..101]  :   0;
+	102  :   2;
+	[103..104]  :   0;
+	105  :   3;
+	106  :   0;
+	[107..108]  :   1;
+	[109..110]  :   0;
+	[111..113]  :   2;
+	[114..128]  :   0;
+	129  :   1;
+	[130..134]  :   0;
+	135  :   2;
+	136  :   0;
+	137  :   3;
+	138  :   0;
+	139  :   1;
+	[140..142]  :   0;
+	143  :   2;
+	144  :   0;
+	145  :   2;
+	[146..160]  :   0;
+	[161..163]  :   1;
+	164  :   0;
+	[165..166]  :   2;
+	[167..168]  :   0;
+	169  :   3;
+	170  :   0;
+	[171..173]  :   1;
+	174  :   0;
+	175  :   2;
+	176  :   0;
+	177  :   2;
+	[178..224]  :   0;
+	[225..227]  :   1;
+	[228..257]  :   0;
+	[258..260]  :   2;
+	[261..291]  :   0;
+	[292..294]  :   3;
+	[295..511]  :   0;
+END;

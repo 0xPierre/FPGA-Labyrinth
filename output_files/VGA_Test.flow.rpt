@@ -1,5 +1,5 @@
 Flow report for VGA_Test
-Wed May 22 19:35:05 2024
+Thu May 23 13:23:37 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,15 +40,15 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Wed May 22 19:35:05 2024       ;
+; Flow Status                     ; Successful - Thu May 23 13:23:37 2024       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; VGA_Test                                    ;
 ; Top-level Entity Name           ; Main                                        ;
 ; Family                          ; Cyclone V                                   ;
 ; Device                          ; 5CSEMA5F31C6                                ;
 ; Timing Models                   ; Final                                       ;
-; Logic utilization (in ALMs)     ; 176 / 32,070 ( < 1 % )                      ;
-; Total registers                 ; 224                                         ;
+; Logic utilization (in ALMs)     ; 178 / 32,070 ( < 1 % )                      ;
+; Total registers                 ; 219                                         ;
 ; Total pins                      ; 116 / 457 ( 25 % )                          ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 5,216 / 4,065,280 ( < 1 % )                 ;
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 05/22/2024 19:34:01 ;
+; Start date & time ; 05/23/2024 13:22:31 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; VGA_Test            ;
 +-------------------+---------------------+
@@ -78,7 +78,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 105658699651551.171639924029960        ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 105658699651551.171646335144508        ; --            ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                            ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)              ; <None>        ; --          ; --             ;
 ; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --          ; eda_simulation ;
@@ -110,6 +110,12 @@ refer to the applicable agreement for further details.
 ; MISC_FILE                           ; addsub_row_bb.v                        ; --            ; --          ; --             ;
 ; MISC_FILE                           ; addsub_col.bsf                         ; --            ; --          ; --             ;
 ; MISC_FILE                           ; addsub_col_bb.v                        ; --            ; --          ; --             ;
+; MISC_FILE                           ; compare_row_buz.bsf                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; compare_row_buz_bb.v                   ; --            ; --          ; --             ;
+; MISC_FILE                           ; lmp_const_row.bsf                      ; --            ; --          ; --             ;
+; MISC_FILE                           ; lmp_const_row_bb.v                     ; --            ; --          ; --             ;
+; MISC_FILE                           ; const_col.bsf                          ; --            ; --          ; --             ;
+; MISC_FILE                           ; const_col_bb.v                         ; --            ; --          ; --             ;
 ; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; Main        ; Top            ;
 ; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; Main        ; Top            ;
 ; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; Main        ; Top            ;
@@ -125,12 +131,12 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:12     ; 1.0                     ; 4948 MB             ; 00:00:10                           ;
-; Fitter               ; 00:00:34     ; 1.1                     ; 7940 MB             ; 00:01:31                           ;
-; Assembler            ; 00:00:05     ; 1.0                     ; 4836 MB             ; 00:00:05                           ;
-; Timing Analyzer      ; 00:00:06     ; 1.4                     ; 5341 MB             ; 00:00:06                           ;
-; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4856 MB             ; 00:00:01                           ;
-; Total                ; 00:00:59     ; --                      ; --                  ; 00:01:53                           ;
+; Analysis & Synthesis ; 00:00:14     ; 1.0                     ; 4960 MB             ; 00:00:13                           ;
+; Fitter               ; 00:00:34     ; 1.1                     ; 7975 MB             ; 00:01:36                           ;
+; Assembler            ; 00:00:05     ; 1.0                     ; 4841 MB             ; 00:00:05                           ;
+; Timing Analyzer      ; 00:00:07     ; 1.4                     ; 5344 MB             ; 00:00:06                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4852 MB             ; 00:00:01                           ;
+; Total                ; 00:01:01     ; --                      ; --                  ; 00:02:01                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

@@ -4,7 +4,7 @@ editor if you plan to continue editing the block that represents it in
 the Block Editor! File corruption is VERY likely to occur.
 */
 /*
-Copyright (C) 2017  Intel Corporation. All rights reserved.
+Copyright (C) 2018  Intel Corporation. All rights reserved.
 Your use of Intel Corporation's design tools, logic functions 
 and other software and tools, and its AMPP partner logic 
 functions, and any output files from any of the foregoing 
@@ -12,43 +12,42 @@ functions, and any output files from any of the foregoing
 associated documentation or information are expressly subject 
 to the terms and conditions of the Intel Program License 
 Subscription Agreement, the Intel Quartus Prime License Agreement,
-the Intel MegaCore Function License Agreement, or other 
-applicable license agreement, including, without limitation, 
-that your use is for the sole purpose of programming logic 
-devices manufactured by Intel and sold by Intel or its 
-authorized distributors.  Please refer to the applicable 
-agreement for further details.
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
 */
 (header "symbol" (version "1.2"))
 (symbol
 	(rect 0 0 216 128)
-	(text "memImage" (rect 76 0 151 16)(font "Arial" (font_size 10)))
+	(text "memImage" (rect 68 0 143 16)(font "Arial" (font_size 10)))
 	(text "inst" (rect 8 112 25 124)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
 		(text "address[8..0]" (rect 0 0 75 14)(font "Arial" (font_size 8)))
-		(text "address[8..0]" (rect 4 18 66 31)(font "Arial" (font_size 8)))
+		(text "address[8..0]" (rect 4 16 78 31)(font "Arial" (font_size 8)))
 		(line (pt 0 32)(pt 88 32)(line_width 3))
 	)
 	(port
 		(pt 0 112)
 		(input)
 		(text "clock" (rect 0 0 29 14)(font "Arial" (font_size 8)))
-		(text "clock" (rect 4 98 27 111)(font "Arial" (font_size 8)))
+		(text "clock" (rect 4 96 33 111)(font "Arial" (font_size 8)))
 		(line (pt 0 112)(pt 80 112))
 	)
 	(port
 		(pt 216 32)
 		(output)
 		(text "q[1..0]" (rect 0 0 35 14)(font "Arial" (font_size 8)))
-		(text "q[1..0]" (rect 183 18 211 31)(font "Arial" (font_size 8)))
+		(text "q[1..0]" (rect 176 16 211 31)(font "Arial" (font_size 8)))
 		(line (pt 216 32)(pt 136 32)(line_width 3))
 	)
 	(drawing
-		(text "2 bits" (rect 109 23 191 153)(font "Arial" )(vertical))
-		(text "512 words" (rect 120 13 212 173)(font "Arial" )(vertical))
-		(text "Block type: AUTO" (rect 48 114 170 239)(font "Arial" ))
+		(text "2 bits" (rect 106 30 195 164)(font "Arial" )(vertical))
+		(text "512 words" (rect 120 16 223 192)(font "Arial" )(vertical))
+		(text "Block type: AUTO" (rect 48 111 186 236)(font "Arial" ))
 		(line (pt 104 24)(pt 136 24))
 		(line (pt 136 24)(pt 136 96))
 		(line (pt 136 96)(pt 104 96))
